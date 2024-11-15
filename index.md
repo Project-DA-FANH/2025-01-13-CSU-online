@@ -4,7 +4,7 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "California State Universities: Chico, Fullerton, San Bernardino"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "Hybrid: Meriam Library (MLIB 045), 400 W 1st St, Chico, CA 95929"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address: "Hybrid. See below for campus specific details"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
@@ -13,7 +13,7 @@ humandate: "Jan 13-15, 2025"    # human-readable dates for the workshop (e.g., "
 humantime: "9:00am-1:00pm PST"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2025-01-13      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2025-01-15        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Robin Donatello", "Essia Hamouda"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["Robin Donatello", "Essia Hamouda", "Ben Beccera"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Sanjeet Mann", "David Palmquist"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["fanh.analytics@gmail.com"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
@@ -129,8 +129,9 @@ workshop is only open to people from a particular institution.
 {% endif %}
 
 <p id="registration">
-    <strong>REGISTRATION</strong>
-    This is a free workshop. Register to get access to lesson materials and zoom link here: <a href="https://forms.gle/QY1kKc4JoJ42RgT1A">Form</a>
+  <strong>REGISTRATION</strong>
+   Registration fees are on a sliding scale: $25 for faculty and staff $10 for students
+   <a href="https://forms.gle/QY1kKc4JoJ42RgT1A"> RSVP here to get the student discount code, link to purchase registration, and access to lesson materials</a>
 </p>
 
 {% comment %}
@@ -297,7 +298,7 @@ Edit the text to match who can attend the workshop. For instance:
 
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is open to ....
+    This workshop is open to students, faculty staff and instructors at any California State University. You don't need to have any previous knowledge of the tools that will be presented at the workshop. 
 </p>
 {% endcomment %}
 
