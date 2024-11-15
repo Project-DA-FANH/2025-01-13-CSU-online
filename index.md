@@ -10,7 +10,7 @@ language: "en"     # lowercase two-letter ISO language code such as "fr" (see ht
 latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-1"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "Jan 13-15, 2025"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "9:00am - 1:00pm PST"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
+humantime: "9:00am-1:00pm PST"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2025-01-13      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2025-01-15        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Robin Donatello", "Essia Hamouda"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -127,6 +127,11 @@ workshop is only open to people from a particular institution.
 {% elsif site.carpentry == "lc" %}
 {% include lc/who.html %}
 {% endif %}
+
+<p id="registration">
+    <strong>REGISTRATION</strong>
+    This is a free workshop. Register to get access to lesson materials and zoom link here: <a href="https://forms.gle/QY1kKc4JoJ42RgT1A">Form</a>
+</p>
 
 {% comment %}
 LOCATION
@@ -266,6 +271,14 @@ Display the contact email address set in the configuration file.
   To learn more about the roles at the workshop (who will be doing what),
   refer to <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our Workshop FAQ</a>.
 </p>
+
+<p id="funding">
+    <strong>Acknowledgement:</strong>
+    This workshop is being offered by Project DA-FANH [grant no. 2021-77040-34880 from the USDA National Institute of Food and Agriculture]. 
+    Project DA-FANH aims to foster an active, inclusive, and diverse community of learners and instructors that promote and model the 
+    importance of software and data in the Food, Agriculture, Natural Resources and Human Sciences.
+</p>
+
 
 {% comment %}
 WHO CAN ATTEND?
