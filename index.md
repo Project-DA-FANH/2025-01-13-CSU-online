@@ -130,8 +130,8 @@ workshop is only open to people from a particular institution.
 
 <p id="registration">
   <strong>REGISTRATION</strong>
-   Registration fees are on a sliding scale: $25 for faculty and staff $10 for students. 
-   <a href="https://forms.gle/QY1kKc4JoJ42RgT1A"> RSVP at this link</a> to get the student discount code, link to purchase registration, and access to lesson materials
+   Registration fees are on a sliding scale: $25 registration fee and $10 for students with promo code "GROWYOURFUTURE".
+   <a href="https://forms.gle/QY1kKc4JoJ42RgT1A"> RSVP at this link</a> to purchase registration, and access to lesson materials.
 </p>
 
 {% comment %}
@@ -295,12 +295,12 @@ Edit the text to match who can attend the workshop. For instance:
 - This workshop is open to the public.
 - If you are interested in attending this workshop, contact me@example.com
   for more information
-{% endcomment %}
 
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
     This workshop is open to students, faculty staff and instructors at any California State University. You don't need to have any previous knowledge of the tools that will be presented at the workshop. 
 </p>
+{% endcomment %}
 
 
 <hr/>
