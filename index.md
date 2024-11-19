@@ -232,7 +232,7 @@ special instructions.
   We encourage you to share any information that would be helpful to make your Carpentries experience accessible.
   To request an accommodation for this workshop, please fill out the 
   <a href="https://carpentries.typeform.com/to/B2OSYaD0">accommodation request form</a>.
-  If you have questions or need assistance with the accommodation form please <a href="mailto:team@carpentries.org">email us</a>.
+  If you have questions or need assistance with the accommodation form please <a href="mailto:fanh.analytics@gmail.com">email us</a>.
 </p>
 <p>
   <a href="https://glosario.carpentries.org/">Glosario</a> is a multilingual glossary 
@@ -259,7 +259,7 @@ Display the contact email address set in the configuration file.
   ,
   {% endunless %}
   {% endif %}
-  <a href='mailto:{{email}}'>{{email}}</a>
+  <a href='mailto:{fanh.analytics@gmail.com}'>{{email}}</a>
   {% endfor %}
   {% else %}
   to-be-announced
@@ -295,8 +295,8 @@ Edit the text to match who can attend the workshop. For instance:
 - This workshop is open to the public.
 - If you are interested in attending this workshop, contact me@example.com
   for more information
-
 {% endcomment %}
+
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
     This workshop is open to students, faculty staff and instructors at any California State University. You don't need to have any previous knowledge of the tools that will be presented at the workshop. 
