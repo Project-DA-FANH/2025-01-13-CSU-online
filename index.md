@@ -296,11 +296,12 @@ Edit the text to match who can attend the workshop. For instance:
 - If you are interested in attending this workshop, contact me@example.com
   for more information
 
+{% endcomment %}
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
     This workshop is open to students, faculty staff and instructors at any California State University. You don't need to have any previous knowledge of the tools that will be presented at the workshop. 
 </p>
-{% endcomment %}
+
 
 <hr/>
 
