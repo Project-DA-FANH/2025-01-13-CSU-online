@@ -130,8 +130,8 @@ workshop is only open to people from a particular institution.
 
 <p id="registration">
   <strong>REGISTRATION</strong>
-   Registration fees are on a sliding scale: $25 registration fee and $10 for students with promo code "GROWYOURFUTURE".
-   <a href="https://forms.gle/QY1kKc4JoJ42RgT1A"> RSVP at this link</a> to purchase registration, and access to lesson materials.
+   Registration fees are $25, or $10 for students who use the promo code 'GROWYOURFUTURE'.
+   <a href="https://www.eventbrite.com/e/r-for-reproducible-scientific-analysis-3-half-days-registration-1084774713369?aff=oddtdtcreator"> RSVP at this link</a> to purchase registration, and access to lesson materials.
 </p>
 
 {% comment %}
