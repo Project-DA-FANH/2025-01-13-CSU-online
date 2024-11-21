@@ -4,7 +4,7 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "California State Universities: Chico, Fullerton, San Bernardino"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "Hybrid. See below for campus specific details"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address: "Online (Zoom) and Meriam Library, Room 045, 400 W 1st Street, Chico, CA 95929"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
@@ -132,6 +132,7 @@ workshop is only open to people from a particular institution.
   <strong>REGISTRATION</strong>
    Registration fees are $25, or $10 for students who use the promo code 'GROWYOURFUTURE'.
    <a href="https://www.eventbrite.com/e/r-for-reproducible-scientific-analysis-3-half-days-registration-1084774713369?aff=oddtdtcreator"> RSVP at this link</a> to purchase registration, and access to lesson materials.
+  Note: Space is limited; contact the organizers to be placed on a hold list if needed.
 </p>
 
 {% comment %}
