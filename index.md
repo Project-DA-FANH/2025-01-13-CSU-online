@@ -17,7 +17,7 @@ instructor: ["Robin Donatello", "Essia Hamouda", "Benjamin Beccera"] # boxed, co
 helper: ["Sanjeet Mann", "David Palmquist"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["fanh.analytics@gmail.com"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
-eventbrite: 1084774713369   # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite:    # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 what3words:           # optional: what3words (https://what3words.com) address of the workshop venue, without leading slashes e.g. "globe.lessening.computers"
 ---
 
@@ -128,8 +128,8 @@ workshop is only open to people from a particular institution.
 
 <p id="registration">
   <strong>REGISTRATION</strong>
-   Registration fees are $25, or $10 for students who use the promo code 'GROWYOURFUTURE'.
-   <a href="https://www.eventbrite.com/e/r-for-reproducible-scientific-analysis-3-half-days-registration-1084774713369?aff=oddtdtcreator"> RSVP at this link</a> to purchase registration, and access to lesson materials.
+   Registration fees are $25, or $10 for students.
+   <a href="https://www.eventbrite.com/e/r-for-reproducible-scientific-analysis-3-half-days-registration-1084774713369?aff=oddtdtcreator"> Register at this link</a>
   Note: Space is limited; contact the organizers to be placed on a hold list if needed.
 </p>
 
