@@ -4,8 +4,7 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "California State Universities: Chico, Fullerton, San Bernardino"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "Online (Zoom) and Meriam Library, Room 045, 400 W 1st Street, Chico, CA 95929. 
-<a href="https://media.csuchico.edu/media/Find%20MLIB%20045/1_v3r8yweo"> How to get to MLIB 045</a>"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address: "Online (Zoom) and Meriam Library, Room 045, 400 W 1st Street, Chico, CA 95929"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
@@ -155,6 +154,7 @@ address.
   <strong>Where:</strong>
   {{page.address}}.
   Get directions with
+  <a href="https://media.csuchico.edu/media/Find%20MLIB%20045/1_v3r8yweo"> How to get to MLIB 045</a>
   <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
   or
   <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>.
